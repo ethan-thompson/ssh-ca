@@ -1,0 +1,20 @@
+[req]
+default_bits = 2048
+default_keyfile = rootkey
+distinguished_name = req_distinguised_name
+x509_extensions = v3_ca
+prompt = no
+
+[req_distinguised_name]
+C = CA
+ST = ON
+L = Ottawa
+O = Ethan
+OU = Ethan
+CN = Ethan Root
+emailAddress = test@email.address
+
+[v3_ca]
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid,issuer
+basicConstraints = CA:TRUE
