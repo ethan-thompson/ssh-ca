@@ -1,0 +1,7 @@
+root_cert/myroot.crt
+root_cert/myroot.pem
+root_cert/root_key
+root_cert/root_key.pub
+ssh_cert/user_key
+ssh_cert/user_key.pub
+ssh_cert/user_key-cert.pub
